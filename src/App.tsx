@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './components/Header';
 import { ContentsTabs } from './components/ContentsTabs';
-import { Biography } from './components/Biography';
+import { Biography } from './components/Biography/Biography';
 
 const App: React.FC = () => {
   return (
