@@ -44,10 +44,7 @@ export const Header: React.FC = () => {
   return (
     <div className={classes.app}>
       <header className={classes.appHeader}>
-        <img src={logo} className={classes.appLogo} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <p></p>
       </header>
     </div>
   );
