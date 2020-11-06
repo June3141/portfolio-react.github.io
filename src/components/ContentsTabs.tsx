@@ -7,6 +7,7 @@ import { Profile } from 'src/pages/Profile';
 import { PublishList } from 'src/pages/PublishList';
 import { Photos } from '../pages/Photos';
 import { Skills } from '../pages/Works';
+import { Contacts } from '../pages/Contacts';
 
 const TabPanel = (props: { children: any; value: any; index: number }) => {
   const { children, value, index } = props;
@@ -67,6 +68,7 @@ export const ContentsTabs: React.FC = () => {
           <Tab label="Skills" {...a11yProps(1)} />
           <Tab label="Publish List" {...a11yProps(2)} />
           <Tab label="Photos" {...a11yProps(3)} />
+          <Tab label="Contacts" {...a11yProps(4)} />
         </Tabs>
       </AppBar>
 
@@ -84,6 +86,10 @@ export const ContentsTabs: React.FC = () => {
 
       <TabPanel value={value} index={3}>
         <Photos />
+      </TabPanel>
+
+      <TabPanel value={value} index={4}>
+        <Contacts />
       </TabPanel>
     </div>
   );
