@@ -9,7 +9,7 @@ import { Photos } from '../pages/Photos';
 import { Skills } from '../pages/Works';
 import { Contacts } from '../pages/Contacts';
 
-const TabPanel = (props: { children: any; value: any; index: number }) => {
+const TabPanel = (props: { children: any; value: number; index: number }) => {
   const { children, value, index } = props;
 
   return (
