@@ -4,7 +4,7 @@
 
 ## URL
 
-[https://june3141.github.io/personal-pages-react](https://june3141.github.io/personal-pages-react/)
+[https://june3141.github.io/portfolio-react.github.io/](https://june3141.github.io/portfolio-react.github.io/)
 
 ## Getting Start
 
