@@ -1,5 +1,12 @@
 import React from 'react';
 
+import { PublishListItem } from '../components/PublishList/PublishListItme';
+
 export const PublishList: React.FC = () => {
-  return <h2>hallo, this is PublishList.</h2>;
+  return (
+    <div className="PublishList">
+      <h2>hallo, this is PublishList.</h2>
+      <PublishListItem />
+    </div>
+  );
 };
