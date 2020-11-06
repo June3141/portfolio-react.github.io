@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Tabs, Tab, Typography, Box } from '@material-ui/core';
 
 import { Profile } from 'src/pages/Profile';
-import { PublishList } from 'src/pages/PublishList,';
+import { PublishList } from 'src/pages/PublishList';
 import { Photos } from '../pages/Photos';
 import { Skills } from '../pages/Works';
 
