@@ -1,9 +1,9 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Avatar from '@material-ui/core/Avatar';
-
-import logo from '../../assets/images/logo.svg';
 import { Typography } from '@material-ui/core';
+
+import profileIconImage from '../../assets/images/profileIconImage.png';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,7 +24,11 @@ export const ImageAvatars: React.FC = () => {
   return (
     <div className="ImageAvaters">
       <div className={classes.root}>
-        <Avatar alt="June3141" src={logo} className={classes.icon} />
+        <Avatar
+          alt="June3141"
+          src={profileIconImage}
+          className={classes.icon}
+        />
       </div>
       <Typography>June 3141</Typography>
     </div>
