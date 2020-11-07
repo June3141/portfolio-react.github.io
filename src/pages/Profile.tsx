@@ -1,5 +1,11 @@
 import React from 'react';
 
+import { AboutMe } from '../components/Profiles/AboutMe';
+
 export const Profile: React.FC = () => {
-  return <h2>hallo, this is profile.</h2>;
+  return (
+    <div className="Profile">
+      <AboutMe />
+    </div>
+  );
 };
