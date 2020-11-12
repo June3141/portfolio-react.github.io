@@ -23,7 +23,6 @@ export const Biography: React.FC = () => {
           React で作成したデモ用のページです。
         </Typography>
       </div>
-      ;
     </div>
   );
 };
