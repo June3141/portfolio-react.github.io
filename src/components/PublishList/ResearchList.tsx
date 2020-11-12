@@ -1,4 +1,4 @@
-import { Link } from '@material-ui/core';
+import { Link, Typography } from '@material-ui/core';
 import React from 'react';
 
 const itemList: Array<{ name: string; url: string }> = [
@@ -24,12 +24,15 @@ const makeList = (item: { name: string; url: string }) => {
 
 export const ResearchList: React.FC = () => {
   return (
-    <ul>
-      {itemList.length < 1 ? (
-        <div>no items</div>
-      ) : (
-        itemList.map((item) => makeList(item))
-      )}
-    </ul>
+    <div className="ResearchList">
+      <Typography> 大学時代の研究 </Typography>
+      <ul>
+        {itemList.length < 1 ? (
+          <div>no items</div>
+        ) : (
+          itemList.map((item) => makeList(item))
+        )}
+      </ul>
+    </div>
   );
 };
