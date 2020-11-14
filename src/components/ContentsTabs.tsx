@@ -6,7 +6,7 @@ import { AppBar, Tabs, Tab, Typography, Box } from '@material-ui/core';
 import { Profile } from 'src/pages/Profile';
 import { PublishList } from 'src/pages/PublishList';
 import { Photos } from '../pages/Photos';
-import { Skills } from '../pages/Works';
+import { Skills } from '../pages/Skills';
 import { Contacts } from '../pages/Contacts';
 
 const TabPanel = (props: { children: any; value: number; index: number }) => {
