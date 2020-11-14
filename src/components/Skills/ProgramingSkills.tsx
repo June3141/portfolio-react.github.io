@@ -1,12 +1,10 @@
+import { Typography } from '@material-ui/core';
 import React from 'react';
-
-import { Languages } from './Languages';
 
 export const ProgramingSkills: React.FC = () => {
   return (
     <div className="ProgramingSkills">
-      <p> hi </p>
-      <Languages />
+      <Typography> プログラミング関連 </Typography>
     </div>
   );
 };
