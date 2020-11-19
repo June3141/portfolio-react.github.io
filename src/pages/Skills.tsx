@@ -9,6 +9,7 @@ export const Skills: React.FC = () => {
     <div className="Skilss">
       <Typography>スキルセット</Typography>
       <ProgramingSkills />
+      <br />
       <OtherSkills />
     </div>
   );
