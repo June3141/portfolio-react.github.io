@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio-react.github.io/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/portfolio-react.github.io/static/js/main.9b0ea2bb.chunk.js",
-    "main.js.map": "/portfolio-react.github.io/static/js/main.9b0ea2bb.chunk.js.map",
-    "runtime-main.js": "/portfolio-react.github.io/static/js/runtime-main.bb79fd81.js",
-    "runtime-main.js.map": "/portfolio-react.github.io/static/js/runtime-main.bb79fd81.js.map",
-    "static/js/2.7ea50f4c.chunk.js": "/portfolio-react.github.io/static/js/2.7ea50f4c.chunk.js",
-    "static/js/2.7ea50f4c.chunk.js.map": "/portfolio-react.github.io/static/js/2.7ea50f4c.chunk.js.map",
-    "static/js/3.7d4518d4.chunk.js": "/portfolio-react.github.io/static/js/3.7d4518d4.chunk.js",
-    "static/js/3.7d4518d4.chunk.js.map": "/portfolio-react.github.io/static/js/3.7d4518d4.chunk.js.map",
+    "main.js": "/portfolio-react.github.io/static/js/main.5b404da2.chunk.js",
+    "main.js.map": "/portfolio-react.github.io/static/js/main.5b404da2.chunk.js.map",
+    "runtime-main.js": "/portfolio-react.github.io/static/js/runtime-main.41d12268.js",
+    "runtime-main.js.map": "/portfolio-react.github.io/static/js/runtime-main.41d12268.js.map",
+    "static/js/2.69b60f5c.chunk.js": "/portfolio-react.github.io/static/js/2.69b60f5c.chunk.js",
+    "static/js/2.69b60f5c.chunk.js.map": "/portfolio-react.github.io/static/js/2.69b60f5c.chunk.js.map",
+    "static/js/3.24bc3f2a.chunk.js": "/portfolio-react.github.io/static/js/3.24bc3f2a.chunk.js",
+    "static/js/3.24bc3f2a.chunk.js.map": "/portfolio-react.github.io/static/js/3.24bc3f2a.chunk.js.map",
     "index.html": "/portfolio-react.github.io/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/portfolio-react.github.io/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.7ea50f4c.chunk.js.LICENSE.txt": "/portfolio-react.github.io/static/js/2.7ea50f4c.chunk.js.LICENSE.txt",
+    "static/js/2.69b60f5c.chunk.js.LICENSE.txt": "/portfolio-react.github.io/static/js/2.69b60f5c.chunk.js.LICENSE.txt",
     "static/media/profileIconImage.3cdc829d.png": "/portfolio-react.github.io/static/media/profileIconImage.3cdc829d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb79fd81.js",
-    "static/js/2.7ea50f4c.chunk.js",
+    "static/js/runtime-main.41d12268.js",
+    "static/js/2.69b60f5c.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.9b0ea2bb.chunk.js"
+    "static/js/main.5b404da2.chunk.js"
   ]
 }
