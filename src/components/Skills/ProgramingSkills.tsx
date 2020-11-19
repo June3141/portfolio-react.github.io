@@ -4,22 +4,65 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const skillData: Array<{ name: string }> = [
-  { name: 'TOEIC score 700 (2016年 6月取得)' },
-  { name: '第一種普通自動車運転免許 (2014年 4月取得)' },
-  { name: '数学検定３級 (2009年)' },
-];
+const ProgramLanguages: React.FC = () => {
+  const item: string[] = [
+    'JavaScript (TypeScript)',
+    'Python3',
+    'Golang',
+    'Rust',
+    'Haskell',
+    'Fortran',
+  ];
+
+  return (
+    <div>
+      <ListItem>
+        <ListItemText>{item.join(' / ')} </ListItemText>
+      </ListItem>
+    </div>
+  );
+};
+
+const Frameworks: React.FC = () => {
+  const item: string[] = ['React', 'NodeJS', 'Flask'];
+
+  return (
+    <div>
+      <ListItem>
+        <ListItemText>{item.join(' / ')} </ListItemText>
+      </ListItem>
+    </div>
+  );
+};
+
+const OtherTools: React.FC = () => {
+  const item: string[] = [
+    'Git',
+    'GitHub',
+    'Ansible',
+    'Kubernetes',
+    'OpenShift',
+    'Docker',
+    'Vim (NeoVim)',
+  ];
+
+  return (
+    <div>
+      <ListItem>
+        <ListItemText>{item.join(' / ')} </ListItemText>
+      </ListItem>
+    </div>
+  );
+};
 
 export const ProgramingSkills: React.FC = () => {
   return (
     <div className="ProgramingSkills">
       <Typography> プログラミング関連 </Typography>
       <List className="OtherSkills">
-        {skillData.map((item) => (
-          <ListItem>
-            <ListItemText> {item.name} </ListItemText>
-          </ListItem>
-        ))}
+        <ProgramLanguages />
+        <Frameworks />
+        <OtherTools />
       </List>
     </div>
   );
